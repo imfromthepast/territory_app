@@ -1,0 +1,25 @@
+.tableFixHead{overflow: auto; height: 2000px; }
+.tableFixHead thead th { position: sticky; top: 0; z-index: 1; }
+.tableFixHead th, td { padding: 8px 16px; }
+.hh-row {cursor: pointer;}
+.placeholder-glow .placeholder {
+    -webkit-animation: placeholder-glow 2s ease-in-out infinite;
+    animation: placeholder-glow 2s ease-in-out infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: placeholder-glow;
+}
+
+.placeholder {
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    cursor: wait;
+    background-color: grey;
+    opacity: .5;
+}
