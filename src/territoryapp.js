@@ -220,6 +220,7 @@ console.log(params);
  *  On load, called to load the auth2 library and API client library.
  */
 function handleClientLoad() {
+    console.log('handleClientLoad()')
     gapi.load('client:auth2', initClient);
 }
 
